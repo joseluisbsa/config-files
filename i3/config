@@ -174,7 +174,8 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-bindsym $mod+b exec i3lock
+# black screen
+bindsym $mod+b exec i3lock -c 000000
 
 exec_always feh --bg-scale /home/joseph/Imagens/wallpaper/wallpaper.jpg
 
